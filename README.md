@@ -11,6 +11,7 @@ It's easy but there is no good documentation. All you need to do is this:
 * copy `youtube.lua` (not youtube.luac) from the source tree to `/Applications/VLC.app/Contents/MacOS/share/lua/playlist/youtube.lua` (no need to compile). You can rename it or not, up to you.
 * add your logic to the `probe()` function
 * run VLC (if you want to check if the script got loaded on startup, run `/Applications/VLC.app/Contents/MacOS/VLC --verbose 2`
+* You should see that it gets invoked either in the console output or in the actual output file.
 
 ### now_playing.txt logic
 
@@ -31,3 +32,5 @@ function probe()
 	file = io.open("/tmp/now_playing_vlc.txt", "a")
 	file:write(unescape(vlc.path) .. "\n")
 ```
+
+More info: https://wiki.videolan.org/Documentation:Building_Lua_Playlist_Scripts/#Simple_Examples
