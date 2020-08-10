@@ -10,7 +10,7 @@ It's easy but the documentation is so confusing or absent it's not funny. All yo
 
 * copy `youtube.lua` (not youtube.luac) from the source tree to `/Applications/VLC.app/Contents/MacOS/share/lua/playlist/youtube.lua` (no need to compile). You can rename it or not, up to you.
 * add your logic to the `probe()` function
-* run VLC (if you want to check if the script got loaded on startup, run `/Applications/VLC.app/Contents/MacOS/VLC --verbose 2`
+* run VLC (if you want to check if the script got loaded on startup, run `/Applications/VLC.app/Contents/MacOS/VLC --verbose 2` (note it writes to stderr, not stdout)
 * You should see that it gets invoked either in the console output or in the actual output file.
 
 ### now_playing.txt logic
