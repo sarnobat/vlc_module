@@ -6,7 +6,7 @@ I still haven't figured out how to do this
 
 ## lua
 
-It's easy but there is no good documentation. All you need to do is this:
+It's easy but the documentation is so bad it's not funny. All you need to do is this:
 
 * copy `youtube.lua` (not youtube.luac) from the source tree to `/Applications/VLC.app/Contents/MacOS/share/lua/playlist/youtube.lua` (no need to compile). You can rename it or not, up to you.
 * add your logic to the `probe()` function
