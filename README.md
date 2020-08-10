@@ -34,3 +34,8 @@ function probe()
 ```
 
 More info: https://wiki.videolan.org/Documentation:Building_Lua_Playlist_Scripts/#Simple_Examples
+
+### Notes
+* Don't bother with an "extension" script (https://translatedby.com/you/instructions-to-code-your-own-vlc-lua-scripts/original/), they only get launched via the menu.
+* Don't bother with an "interface" script since you have to use that instead of an existing interface and change how you launch the app
+* "Playlist" is the one you want.
