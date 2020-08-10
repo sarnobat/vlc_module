@@ -40,6 +40,7 @@ More info: https://wiki.videolan.org/Documentation:Building_Lua_Playlist_Scripts
 * Don't bother with an "interface" script since you have to use that instead of an existing interface and change how you launch the app
 * "Playlist" is the one you want.
 * The terminology is confusing: script and extension are not the same thing, and I'm not sure what a module is. Actually I think the lua module that allows scripting is just one of many modules. Modules probably have to be written in C. I think a plugin and module are the same thing.
+* I think the extension callbacks are not firing because of an OS X bug: https://forum.videolan.org/viewtopic.php?t=109367
 
 ### Call graph
 
