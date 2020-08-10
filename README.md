@@ -72,3 +72,4 @@ More info: https://wiki.videolan.org/Documentation:Building_Lua_Playlist_Scripts
     frame #25: 0x000000010000341e vlc-osx-static`main(i_argc=2, ppsz_argv=0x00007ffeefbfec28) at darwinvlc.m:281
     frame #26: 0x0000000100002ca4 vlc-osx-static`start + 52
 ```
+ 
